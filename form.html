@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Игрушки и предметы интерьера ручной работы "Mishka"</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+
+    <header>
+      <nav class="navigation">
+        <ul class="navigation__menu site-list">
+          <li class="navigation__item">
+            <a class="navigation__link" href="catalog.html">Каталог товаров</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="form.html">Вязание на заказ</a>
+          </li>
+        </ul>
+        <div class="navigation__logo">
+          <a href="index.html">
+            <picture>
+              <source media="(min-width: 1250px)" srcset="img/index/desktop/logo.png">
+              <source media="(min-width: 768px)" srcset="img/index/tablet/logo.png">
+              <img src="img/index/mobile/logo.png" alt="Логотип 'Mishka'">
+            </picture>
+          </a>
+        </div>
+        <button class="navigation__toggle" type="button">
+          <div class="line line1"></div>
+          <div class="line line2"></div>
+          <div class="line line3"></div>
+        </button>
+        <ul class="navigation__menu search-list">
+          <li class="navigation__item item-search">
+            <a class="navigation__link link-search">Поиск по сайту</a>
+            
+            <!-- <label for="search">Поиск по сайту
+              <p class="navigation__search-wrap">
+                <input class="navigation__search" type="search" name="search" id="search" placeholder="Поиск по сайту"> 
+                <input class="navigation__button--search button "type="submit" value="Найти">
+              </p>
+            </label> -->
+            <!-- <button type="button" class="navigation__button"></button> -->
+          </li>
+          <li class="navigation__item item-cart">
+            <a class="navigation__link link-cart" href="cart.html">Корзина: пока пуста</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="form-to-buy">
+      <div class="form-to-buy__head">
+        <h2 class="form-to-buy__title">
+          Вязание на заказ
+        </h2>
+      </div>
+      <div class="form-to-buy__main">
+        <p class="form-to-buy__text">
+          Мы будем рады воплотить в жизнь ваши пожелания! Заполните простую форму заказа и мы свяжемся с вами, чтобы уточнить детали.
+        </p>
+        <form action="#" method="get">
+          <div class="form-to-buy__wrap form-to-buy__wrap--type">
+            <h4 class="form-to-buy__caption">Тип</h4>
+            <fieldset class="form-to-buy__type form-to-buy__fieldset">
+              <ul class="form-to-buy__type-list">
+                <li class="form-to-buy__type-item">
+                  <label class="form-to-buy__label" for="filter-for-interior">
+                  <input class="form-to-buy__radio visually-hidden" type="radio" name="filter-type" value="for-interior" id="filter-for-interior" checked >
+                  <span class="form-to-buy__radio-indicator"></span>
+                   Аксессуар для интерьера
+                  </label>
+                </li>
+                <li class="form-to-buy__type-item">
+                  <label class="form-to-buy__label" for="filter-toy">
+                  <input class="form-to-buy__radio visually-hidden" type="radio" name="filter-type" value="toy" id="filter-toy">
+                  <span class="form-to-buy__radio-indicator"></span>
+                   Детская игрушка
+                  </label>
+                </li>
+              </ul>
+            </fieldset>
+          </div>
+          <div class="form-to-buy__wrap form-to-buy__wrap--colour form-to-buy__wrap--grey ">
+            <h4 class="form-to-buy__caption">Цвет</h4>
+            <fieldset class="form-to-buy__colour form-to-buy__fieldset">
+              <ul class="form-to-buy__colour-list">
+                <li class="form-to-buy__colour-item">
+                  <label class="form-to-buy__label" for="filter-colour-white">
+                    <input  class="form-to-buy__checkbox visually-hidden" type="checkbox" name="colour-white" id="filter-colour-white" checked>
+                    <span class="form-to-buy__checkbox-indicator"></span>
+                    Белый
+                  </label>
+                </li>
+
+                <li class="form-to-buy__colour-item">
+                  <label class="form-to-buy__label" for="filter-colour-grey">
+                    <input  class="form-to-buy__checkbox  visually-hidden" type="checkbox" name="colour-grey" id="filter-colour-grey" checked>
+                    <span class="form-to-buy__checkbox-indicator"></span>
+                    Серый
+                  </label>
+                </li>
+
+                <li class="form-to-buy__colour-item">
+                  <label class="form-to-buy__label" for="filter-colour-tiffany">
+                    <input  class="form-to-buy__checkbox visually-hidden" type="checkbox" name="colour-tiffany" id="filter-colour-tiffany" >
+                    <span class="form-to-buy__checkbox-indicator"></span>
+                    "Тиффани"
+                  </label>
+                </li>
+
+                <li class="form-to-buy__colour-item">
+                  <label class="form-to-buy__label" for="filter-colour-black">
+                    <input  class="form-to-buy__checkbox visually-hidden" type="checkbox" name="colour-black" id="filter-colour-black" >
+                    <span class="form-to-buy__checkbox-indicator"></span>
+                    Черный
+                  </label>
+                </li>
+
+                <li class="form-to-buy__colour-item">
+                  <label class="form-to-buy__label" for="filter-colour-pink">
+                    <input  class="form-to-buy__checkbox visually-hidden" type="checkbox" name="colour-pink" id="filter-colour-pink" >
+                    <span class="form-to-buy__checkbox-indicator"></span>
+                    Розовый
+                  </label>
+                </li>
+
+                <li class="form-to-buy__colour-item">
+                  <label class="form-to-buy__label" for="filter-colour-orange">
+                    <input  class="form-to-buy__checkbox visually-hidden" type="checkbox" name="colour-orange" id="filter-colour-orange" >
+                    <span class="form-to-buy__checkbox-indicator"></span>
+                    Оранжевый
+                  </label>
+                </li>
+
+              </ul>
+            </fieldset>
+          </div>
+          <div class="form-to-buy__name--wrap">
+            <h4 class="form-to-buy__caption">ФИО</h4>
+            <ul class="form-name">
+              <li class="form-name__item">
+                <label class="form-to-buy-label" for="name">Имя:
+                  <p><input class="form-to-buy__first-name form-to-buy__name " type="text" name="name" placeholder="Введите ваше имя*" id="name"></p>
+                </label>
+              </li>
+              <li class="form-name__item">
+                <label class="form-to-buy-label" for="surname">Фамилия:
+                  <p><input class="form-to-buy__surname form-to-buy__name" type="text" name="surname" placeholder="Укажите фамилию*" id="surname"></p>
+                </label>
+              </li>
+              <li class="form-name__item">
+                <label class="form-to-buy-label" for="second-name">Отчество:
+                  <p><input class="form-to-buy__second-name form-to-buy__name" type="text" name="second-name" placeholder="Отчество, если желаете" id="second-name"></p>
+                </label>
+              </li>
+            </ul>
+          </div>
+          <div class="form-to-buy__tel--wrap contacts__wrap form-to-buy__wrap--grey">
+            <h4 class="form-to-buy__caption caption--tel">Тел</h4>
+            <div class="form-to-buy__input">
+              <label class="form-to-buy-label visually-hidden" for="tel">Телефон:</label>
+              <input class="form-to-buy__tel" type="tel" name="tel" placeholder="+7 XXX XX XX*" id="tel">
+            </div>
+          </div>
+          <div class="form-to-buy__e-mail--wrap contacts__wrap form-to-buy__wrap--grey" >
+            <h4 class="form-to-buy__caption caption--e-mail">E-mail</h4>
+            <div class="form-to-buy__input">
+              <label class="form-to-buy-label  visually-hidden" for="e-mail">E-mail:</label>
+              <input class="form-to-buy__e-mail " type="e-mail" name="e-mail" placeholder="Ваш e-mail*" id="e-mail">
+            </div>
+          </div>
+          <div class="form-to-buy__add--wrap" >
+            <h4 class="form-to-buy__caption">Доп</h4>
+            <div class="form-to-buy__input">
+              <label class="form-to-buy-label visually-hidden" for="info">Дополнительная информация</label>
+              <textarea class="form-to-buy__info" name="info" id="info" cols="30" rows="10" placeholder="Опишите все ваши пожелания к заказу"></textarea>
+            </div>
+          </div>
+          <div class="form-to-buy__button--wrap">
+            <p class="form-to-buy__mark">*Поля обязательны для заполнения</p>
+            <button class="form-to-buy__button button" type="submit">Отправить заказ</button>
+          </div>
+        </form>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer__wrapper">
+        <div class="footer__logo">
+          <a class="footer__logo--link" href="index.html">"Логотип Мишка"</a>
+        </div>
+        <ul class="footer__socials">
+          <li class="footer__social">
+            <a href="#" class="footer__link link-ig">Мы в Instagram</a>
+          </li>
+          <li class="footer__social">
+            <a href="#" class="footer__link link-fb">Мы в Facebook</a>
+          </li>
+          <li class="footer__social">
+            <a href="#" class="footer__link link-tw">Мы в Twitter</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+  
+  
+    
+   

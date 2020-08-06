@@ -1,0 +1,528 @@
+/* FORM-TO-BUY */
+
+.form-to-buy {
+  width: 320px;
+  margin: 0 auto;
+
+  background-color: #ffffff;
+}
+
+.form-to-buy__head {
+  width: 100%;
+  padding-top: 70px;
+  padding-bottom: 70px;
+
+  text-align: center;
+
+  background-color: #f1f1f1;
+}
+
+.form-to-buy__title {
+  font-size: 27px;
+  line-height: 30px;
+}
+
+.form-to-buy__main {
+  padding-top: 25px;
+  padding-right: 30px;
+  padding-bottom: 55px;
+  padding-left: 30px;
+}
+
+.form-to-buy__text {
+  font-size: 13px;
+  line-height: 24px;
+
+  margin-bottom: 25px;
+}
+
+.form-to-buy__type {
+  border: none;
+
+  margin-bottom: 30px;
+}
+
+.form-to-buy__label {
+  margin-left: 55px;
+  
+  font-size: 17px;
+  line-height: 18px;
+  font-weight: 700;
+}
+
+.form-to-buy__type-item {
+  position: relative;
+  margin-bottom: 25px;
+}
+.form-to-buy__type-item:last-child {
+  margin-bottom: 0;
+}
+.form-to-buy__radio + .form-to-buy__radio-indicator {
+  position: absolute;
+  top: -5px;
+  left: 0;
+
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 2px solid black;
+
+  transition: all 0.3s ease;
+}
+
+.form-to-buy__radio:hover + .form-to-buy__radio-indicator,
+.form-to-buy__radio:focus + .form-to-buy__radio-indicator {
+  border: 2px solid #63d1bb;
+}
+
+.form-to-buy__radio:active + .form-to-buy__radio-indicator {
+  border: 2px solid #cacaca;
+}
+
+
+.form-to-buy__radio:checked + .form-to-buy__radio-indicator::before {
+  content: "";
+  position: absolute;
+
+  top: 50%;
+  margin-top: -8px;
+  left: 50%;
+  margin-left: -8px;
+
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #63d1bb;
+}
+
+.form-to-buy__colour {
+  border: none;
+
+  margin-bottom: 30px;
+}
+
+.form-to-buy__colour-item {
+  position: relative;
+  margin-bottom: 25px;
+}
+.form-to-buy__colour-item:last-child {
+  
+  margin-bottom: 0;
+}
+
+.form-to-buy__checkbox + .form-to-buy__checkbox-indicator {
+  position: absolute;
+  top: -3px;
+  left: 0;
+
+  width: 40px;
+  height: 40px;
+
+  background-color: transparent;
+  border: 2px solid black;
+  transition: all 0.3s ease;
+  }
+
+.form-to-buy__checkbox:hover + .form-to-buy__checkbox-indicator,
+.form-to-buy__checkbox:focus + .form-to-buy__checkbox-indicator {
+  border: 2px solid #63d1bb;
+}
+
+.form-to-buy__checkbox:active + .form-to-buy__checkbox-indicator {
+  border: 2px solid #cacaca;
+}
+
+  .form-to-buy__checkbox:checked + .form-to-buy__checkbox-indicator::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 7px;
+
+    width: 33px;
+    height: 22px;
+
+    background: url('../img/form/mobile/tick.png') 0 0 no-repeat;
+
+  }
+
+.form-to-buy__caption {
+  position: relative;
+
+  font-size: 17px;
+  line-height: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #63d1bb;
+
+  margin-bottom: 30px;
+}
+
+.caption--tel, 
+.caption--e-mail {
+  margin-bottom: 5px;
+}
+
+.form-to-buy__caption::after {
+  content: "";
+
+  position: absolute;
+  top: 50%;
+  right: 0;
+
+  width: 190px;
+  height: 1px;
+  background-color: #63d1bb;
+}
+
+.form-to-buy__name--wrap {
+  margin-bottom: 30px;
+}
+.contacts__wrap {
+  margin-bottom: 30px;
+  font-size: 17px;
+  line-height: 16px;
+}
+
+.form-name__item {
+  font-size: 17px;
+  line-height: 18px;
+  font-weight: 700;
+
+  margin-bottom: 20px;
+}
+
+.form-to-buy__name,
+.form-to-buy__tel,
+.form-to-buy__e-mail {
+  width: 100%;
+  padding: 15px;
+  padding-left: 0;
+
+  border: none;
+  border-bottom: 2px solid #000000;
+
+  font-size: 17px;
+  line-height: 18px;
+  color: #000000;
+  font-weight: 400;
+
+  transition: all 0.3s ease;
+  background-color: transparent;
+}
+
+.form-to-buy__name:hover,
+.form-to-buy__tel:hover,
+.form-to-buy__e-mail:hover,
+.form-to-buy__name:focus,
+.form-to-buy__tel:focus,
+.form-to-buy__e-mail:focus {
+  border-bottom: 2px solid #63d1bb;
+}
+
+::-webkit-input-placeholder {
+  font-size: 17px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #cacaca;
+
+  }
+::-moz-placeholder { 
+  font-size: 17px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #cacaca; 
+}
+:-moz-placeholder { 
+  font-size: 17px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #cacaca; 
+}
+:-ms-input-placeholder {
+  font-size: 17px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #cacaca; 
+}
+
+.form-to-buy__info {
+  width: 100%;
+  height: 140px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+  padding: 15px;
+  
+  border: 2px solid #000000;
+  font-size: 17px;
+  line-height: 18px;
+  font-family: 'Open Sans', sans-serif;
+  }
+
+::-webkit-input-placeholder { 
+  font-size: 17px;
+  line-height: 18px;
+  font-family: 'Open Sans', sans-serif;
+  }
+
+::-moz-placeholder { 
+  font-size: 17px;
+  line-height: 18px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+:-ms-input-placeholder { 
+  font-size: 17px;
+  line-height: 18px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+:-moz-placeholder {
+   font-size: 17px;
+  line-height: 18px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.form-to-buy__mark {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.form-to-buy__button {
+  margin-top: 30px;
+
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+
+  .form-to-buy {
+    width: 768px;
+    
+  }
+
+  .form-to-buy__head {
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 120px;
+
+  }
+  .form-to-buy__head::after {
+    content: "";
+
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    
+    width: 768px;
+    height: 24px;
+    background: url("../img/form/tablet/zigzag.png") 0 0 no-repeat;
+  }
+
+  .form-to-buy__main {
+    padding-top: 70px;
+    padding-right: 0;
+    padding-bottom: 50px;
+    padding-left: 0;
+  }
+
+  .form-to-buy__text {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 55px;
+
+    font-size: 17px;
+    line-height: 30px;
+  }
+  .form-to-buy__caption {
+    width: 25%;
+  }
+
+  .form-to-buy__caption::after {
+    display: none;
+  }
+  
+  .form-to-buy__wrap {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .form-to-buy__label {
+    font-size: 19px;
+    line-height: 18px;
+
+  }
+  .form-to-buy__fieldset {
+    width: 75%;
+  }
+  .form-to-buy__wrap--type {
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 25px;
+  }
+
+  .form-to-buy__wrap--colour {
+    background-color: #f1f1f1;
+  }
+
+  .form-to-buy__colour-list {
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 100%;
+  }
+  .form-to-buy__colour-item {
+    width: 50%;
+
+  }
+  .form-to-buy__wrap--grey {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .form-to-buy__name--wrap {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+  .form-name {
+    width: 75%;
+  }
+
+  .form-name__item {
+    font-size: 19px;
+    line-height: 18px;
+
+    margin-bottom: 30px;
+  }
+
+  ::-webkit-input-placeholder {
+    font-size: 19px;
+    line-height: 18px;
+    }
+  ::-moz-placeholder { 
+    font-size: 19px;
+    line-height: 18px;
+  }
+  :-moz-placeholder { 
+    font-size: 19px;
+    line-height: 18px;
+  }
+  :-ms-input-placeholder {
+    font-size: 19px;
+    line-height: 18px;
+  }
+  
+  .contacts__wrap {
+    display: flex;
+    flex-wrap: wrap;
+
+    background-color: #f1f1f1;
+    margin-bottom: 0;
+  }
+  .contacts__wrap .form-to-buy__caption {
+    padding-top: 15px;
+  }
+  .form-to-buy__input {
+    width: 75%;
+  }
+  .form-to-buy__e-mail--wrap {
+    padding-bottom: 50px;
+  }
+
+  .form-to-buy__add--wrap {
+    display: flex;
+    flex-wrap: wrap;
+    
+    padding: 50px;
+  }
+  .form-to-buy__add--wrap .form-to-buy__caption {
+    padding-top: 17px;
+  }
+
+  .form-to-buy__button--wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+
+    padding-left: 50px;
+    padding-right: 50px;
+    
+  }
+
+  .form-to-buy__button {
+    width: 230px;
+    margin-top: 0;
+
+    order: -1;
+  }
+
+  .form-to-buy__mark {
+    width: 310px;
+
+    font-size: 17px;
+    line-height: 30px;
+  }
+
+}
+
+@media (min-width: 1250px) {
+
+  .form-to-buy {
+    width: 1250px;
+    
+  }
+
+  .form-to-buy__head::after {
+    width: 1250px;
+    height: 34px;
+
+    background: url("../img/form/desktop/zigzag.png") 0 0 repeat-x;
+  }
+
+  .form-to-buy__title {
+    font-size: 53px;
+    line-height: 57px;
+  }
+
+  .form-to-buy__main {
+    padding-top: 110px;
+  }
+
+  .form-to-buy__text {
+    margin-left: 250px;
+    margin-right: 250px;
+    
+  }
+
+  .form-to-buy__caption {
+    width: 18%;
+    text-align: center;
+  }
+
+  .form-to-buy__fieldset {
+    width: 82%;
+  }
+
+  .form-to-buy__colour-item {
+    width: 33.3%;
+
+  }
+
+  .form-to-buy__button--wrap {
+    padding-left: 258px;
+    padding-right: 225px;
+    
+  }
+  .form-name, .form-to-buy__input {
+    width: 66.8%;
+  }
+}
+
+

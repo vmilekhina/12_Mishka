@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Игрушки и предметы интерьера ручной работы "Mishka"</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+
+    <header>
+      <nav class="navigation">
+        <ul class="navigation__menu site-list">
+          <li class="navigation__item">
+            <a class="navigation__link" href="catalog.html">Каталог товаров</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="form.html">Вязание на заказ</a>
+          </li>
+        </ul>
+        <div class="navigation__logo">
+          <a href="index.html">
+            <picture>
+              <source media="(min-width: 1250px)" srcset="img/index/desktop/logo.png">
+              <source media="(min-width: 768px)" srcset="img/index/tablet/logo.png">
+              <img src="img/index/mobile/logo.png" alt="Логотип 'Mishka'">
+            </picture>
+          </a>
+        </div>
+        <button class="navigation__toggle" type="button">
+          <div class="line line1"></div>
+          <div class="line line2"></div>
+          <div class="line line3"></div>
+        </button>
+        <ul class="navigation__menu search-list">
+          <li class="navigation__item item-search">
+            <a href="#" class="navigation__link link-search">Поиск по сайту</a>
+            
+            <!-- <label for="search">Поиск по сайту
+              <p class="navigation__search-wrap">
+                <input class="navigation__search" type="search" name="search" id="search" placeholder="Поиск по сайту"> 
+                <input class="navigation__button--search button "type="submit" value="Найти">
+              </p>
+            </label> -->
+            <!-- <button type="button" class="navigation__button"></button> -->
+          </li>
+          <li class="navigation__item item-cart">
+            <a class="navigation__link link-cart" href="cart.html">Корзина: пока пуста</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="catalog">
+      <div class="catalog__head">
+        <h2 class="catalog__title">
+          Каталог товаров
+        </h2>
+      </div>
+      <div class="catalog__wrapper">
+        <ul class="catalog__list">
+          <li class="catalog__item item">
+            <a href="#" class="catalog__link">
+              <div class="item__photo">
+                <picture>
+                  <source media="(min-width: 1250px)" srcset="img/catalog/desktop/photo-1.jpg">
+                  <source media="(min-width: 768px)" srcset="img/catalog/tablet/photo-1.jpg">
+                  <img class="item__photo-img" src="img/catalog/mobile/photo-1.jpg" alt="На фото изображен вязаный зайка бирюзового цвета">
+                </picture>
+              </div>
+              <div class="item__description">
+                <div class="item__content">
+                  <h3 class="item__title">
+                    Зайчик-попрыгайчик
+                  </h3>
+                  <p class="item__text">
+                    Рост 30 см, вес 200 г
+                  </p>
+                </div>
+                <div class="item__price">
+                  <p class="item__cost">1200 руб.</p>
+                  <button class="item__button-buy" type="button">Купить</button>
+                </div>
+              </div>
+            </a>
+          </li>
+
+          <li class="catalog__item item">
+            <a href="#" class="catalog__link">
+              <div class="item__photo">
+                <picture>
+                  <source media="(min-width: 1250px)" srcset="img/catalog/desktop/photo-2.jpg">
+                  <source media="(min-width: 768px)" srcset="img/catalog/tablet/photo-2.jpg">
+                  <img  class="item__photo-img" src="img/catalog/mobile/photo-2.jpg" alt="На фото изображена вязаная корзинка">
+                </picture>
+              </div>
+              <div class="item__description">
+                <div class="item__content">
+                  <h3 class="item__title">
+                    Корзинка для белья
+                  </h3>
+                  <p class="item__text">
+                    Диаметр 15 см, высота 10 см
+                  </p>
+                </div>
+                <div class="item__price">
+                  <p class="item__cost">690 руб.</p>
+                  <button class="item__button-buy" type="button">Купить</button>
+                </div>
+              </div>
+            </a>
+          </li>
+
+          <li class="catalog__item item">
+            <a href="#" class="catalog__link">
+              <div class="item__photo">
+                <picture>
+                  <source media="(min-width: 1250px)" srcset="img/catalog/desktop/photo-3.jpg">
+                  <source media="(min-width: 768px)" srcset="img/catalog/tablet/photo-3.jpg">
+                  <img  class="item__photo-img" src="img/catalog/mobile/photo-3.jpg" alt="На фото изображена корзинка для игрушек">
+                </picture>
+              </div>
+              <div class="item__description">
+                <div class="item__content">
+                  <h3 class="item__title">
+                    Большая корзинка для игрушек
+                  </h3>
+                  <p class="item__text">
+                    Диаметр 30 см, высота 30 см
+                  </p>
+                </div>
+                <div class="item__price">
+                  <p class="item__cost">1500 руб.</p>
+                  <button class="item__button-buy" type="button">Купить</button>
+                </div>
+              </div>
+            </a>
+          </li>
+        </ul>
+        <div class="catalog__production production">
+          <div class="production__intro">
+            <h3 class="production__title">Процесс производства</h3>
+          </div>
+          <div class="production__video">
+            <picture>
+              <source media="(min-width: 1250px)" srcset="img/catalog/desktop/video.jpg">
+              <source media="(min-width: 768px)" srcset="img/catalog/tablet/video.jpg">
+              <img src="img/catalog/mobile/video.jpg" alt="На видео запечатлен процесс производства вязаных изделий ручной работы.">
+            </picture>
+            <button class="production__button"></button>
+          </div>
+          <div class="production__description">
+            <p class="production__text">По просьбам наших любимых фолловеров мы сняли для вас подробное видео о том, как появляются наши товары.</p>
+            <a class="production__to-buy button" href="form.html">
+              Сделать заказ
+            </a>
+          </div>
+          
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer__wrapper">
+        <div class="footer__logo">
+          <a class="footer__logo--link" href="index.html">"Логотип Мишка"</a>
+        </div>
+        <ul class="footer__socials">
+          <li class="footer__social">
+            <a href="#" class="footer__link link-ig">Мы в Instagram</a>
+          </li>
+          <li class="footer__social">
+            <a href="#" class="footer__link link-fb">Мы в Facebook</a>
+          </li>
+          <li class="footer__social">
+            <a href="#" class="footer__link link-tw">Мы в Twitter</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    
+    
+    <section class="modal modal__cart">
+      <div class="modal__wrapper">
+        <h3 class="modal__title">
+          Добавить в корзину
+        </h3>
+        <p class="modal__text">
+          Выберите размер:
+        </p>
+        <div class="modal__sizes">
+          <p>
+            <input class="modal__radio visually-hidden" type="radio" name="size" value="size-s" id="filter-size-s">
+            <label class="modal__label" for="filter-size-s">S
+            </label>
+          </p>
+          <p>
+            <input class="modal__radio visually-hidden" type="radio" name="size" value="size-m" id="filter-size-m">
+            <label class="modal__label" for="filter-size-m">M
+            </label>
+          </p>
+          <p>
+            <input class="modal__radio visually-hidden" type="radio" name="size" value="size-l" id="filter-size-l">
+            <label class="modal__label" for="filter-size-l">L
+            </label>
+          </p>
+        </div>
+        <button class="modal__add-to-cart" type="submit">Добавить</button>
+      </div>
+    </section>
+
+
+    <script src="js/script.js"></script>
+    
+  </body>
+  
+    
+   
