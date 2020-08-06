@@ -41,7 +41,8 @@ var reviewList = [reviewOne, reviewTwo, reviewThree];
 var i = 99;
 
 reviewNext.addEventListener('click', function (evt) {
-    evt.preventDefault();
+  console.log('Hello');
+  evt.preventDefault();
   i = i + 1;
   x = i % 3;
 
@@ -63,6 +64,7 @@ reviewNext.addEventListener('click', function (evt) {
 });
 
 reviewPrev.addEventListener('click', function (evt) {
+  alert('Hello');
   evt.preventDefault();
 i = i - 1;
 x = i % 3;
