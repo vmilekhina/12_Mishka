@@ -40,8 +40,7 @@ var reviewThree = document.querySelector('.review__item--three');
 var reviewList = [reviewOne, reviewTwo, reviewThree];
 var i = 99;
 
-reviewNext.addEventListener('click', function (evt) {
-  console.log('Hello');
+reviewNext.addEventListener("click", function (evt) {
   evt.preventDefault();
   i = i + 1;
   x = i % 3;
@@ -63,11 +62,10 @@ reviewNext.addEventListener('click', function (evt) {
 
 });
 
-reviewPrev.addEventListener('click', function (evt) {
-  alert('Hello');
+reviewPrev.addEventListener("click", function (evt) {
   evt.preventDefault();
-i = i - 1;
-x = i % 3;
+  i = i - 1;
+  x = i % 3;
 
 if (x === 0) {
   reviewTwo.classList.remove("review-show");
